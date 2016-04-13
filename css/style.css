@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+h4 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin-top: 90px;
+    position: relative;
+}
+
+h3:after {
+    width: 60px;
+    border-bottom: 3px solid #f38181;
+    position: absolute;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -30px;
+    bottom: -35px;
+}
+
+h3 {
+    font: 700 30px 'Montserrat', sans-serif;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+/**************HEADER*******************/
+header {
+    background: url("../images/banner.png") no-repeat;
+    width: 100%;
+}
+
+.top-menu .logo img {
+    margin-top: 30px;
+}
+
+nav ul {
+    margin-top: 40px;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+nav ul li:hover a {
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+}
+
+.text-in-head h2 {
+    margin-top: 150px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 145px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 130px;
+    margin-bottom: 125px;
+    position: relative;
+
+}
+
+header h1:after {
+    width: 60px;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -30px;
+    bottom: -55px;
+}
+
+.text-in-head a {
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 10px 30px;
+    margin-bottom: 55px;
+}
+
+.laerbaner {
+    margin-top: 150px;
+}
+
+.laerbaner div p {
+    border-top: 2px solid #f8eac4;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: #fbf4e0;
+    font: 400 16px 'Montserrat', sans-serif;
+}
+
+.laerbaner div p span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*********************  AND HEADER *****************************/
+
+/***********************   S T O R Y  **************************/
+.story p, .service p {
+    font: 400 15px 'Roboto', sans-serif;
+    color: #999;
+    margin-bottom: 100px;
+}
+
+.hover-img:hover:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: -moz-linear-gradient(top, rgba(255, 50, 50, 0.9) 0%, rgba(234, 247, 133, 0.9) 100%);
+/ FF3 .6 - 15 / background : -webkit-linear-gradient(top, rgba(255, 50, 50, 0.9) 0 %, rgba(234, 247, 133, 0.9) 100 %);
+    background: linear-gradient(to bottom, rgba(255, 50, 50, 0.9) 0%, rgba(234, 247, 133, 0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78ff3232', endColorstr='#7aeaf785', GradientType=0);
+}
+
+.hover-img:hover {
+    -webkit-transform: translate(-100%, 0);
+    -moz-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    -o-transform: translate(-100%, 0);
+    transform: translate(-10px, -10px);
+}
+
+.hover-img {
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+    position: relative;
+}
+
+.hover-img:hover > img {
+    box-shadow: 10px 10px 0 #95e1d3;
+}
+
+.hover-img img {
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+
+.hover-img .text-for-hover p {
+    margin: 0;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-for-hover {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.hover-img:hover .text-for-hover {
+    display: block;
+}
+
+.forhover {
+    margin-bottom: 105px;
+}
+
+/*********************  DOP_INFO  ************************/
+
+.dop-info {
+    background: #95e1d3;
+    clear: both;
+    content: "";
+}
+
+.dop-info .col5 {
+    float: left;
+    width: 20%;
+    border-right: 1px solid #b5eae0;
+}
+
+.dop-info .col5:first-child {
+    border-left: 1px solid #b5eae0;
+}
+
+.dop-info .col5 h4 {
+    font: 700 72px 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 70px;
+
+}
+
+.dop-info .col5 p {
+    font: 14px 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 88px;
+}
+/**********************s e r v i c e****************************/
+.icon-images{
+    float: left;
+}
+.icon-text{
+    display: block;
+    margin-left: 60px;
+    padding-right: 25px;
+}
+.icon-text h5{
+    margin-top: 0;
+    font: 14px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.icon-text p{
+    margin-bottom: 0;
+}
+.line-bottom{
+margin-bottom: 51px;
+padding-bottom: 50px;
+border-bottom: 1px solid #e5e5e5;}
+/********************** AND     s e r v i c e****************************/
+/************************  d  e  s  i  g  n   **********************/
+.design {
+    background: url("../images/bgttttlesay.png");
+    width: 100%;
+    padding-top: 5px;
+    position: relative;
+    margin-top: 125px;
+}
+
+.for-position {
+    position: absolute;
+    bottom: -65px;
+    left: 61%;
+}
